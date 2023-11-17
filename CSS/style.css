@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: transparent;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gold;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    border-top: 2px solid gold;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.cart-profile {
+    display: flex;
+    align-items: center;
+    height: 120%;
+}
+
+.profile {
+    padding-left: 20px;
+}
+
+.marbre {
+    width: 150%;
+}
