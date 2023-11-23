@@ -47,6 +47,46 @@ nav ul li a {
     padding-left: 20px;
 }
 
-.marbre {
-    width: 150%;
+/* styles.css */
+
+  
+.full-screen-image {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Utilisation de 100vh pour remplir la hauteur de l'écran */
+    overflow: hidden;
 }
+  
+.full-screen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.tcol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: flex; /* Utilisation de flexbox pour aligner verticalement */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 10px; /* Ajout de padding pour l'espacement interne */
+}
+  
+.tcol a {
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 1.5; /* Hauteur de ligne pour centrer verticalement */
+}
+  
+  
+
+  
