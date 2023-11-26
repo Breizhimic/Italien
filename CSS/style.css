@@ -77,7 +77,7 @@ nav ul li a {
   
 .tcol {
     position: absolute;
-    top: 4%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -106,7 +106,7 @@ nav ul li a {
   
 .box1 {
     position: absolute;
-    top: 25%;
+    top: 21%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -127,7 +127,7 @@ nav ul li a {
 
 .box2 {
     position: absolute;
-    top: 52%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -167,6 +167,8 @@ nav ul li a {
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
     padding: 10px; /* Ajout de padding pour l'espacement interne */
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .img1 {
@@ -184,6 +186,8 @@ nav ul li a {
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
     padding: 10px; /* Ajout de padding pour l'espacement interne */
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .txt2 {
@@ -201,6 +205,8 @@ nav ul li a {
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
     padding: 10px; /* Ajout de padding pour l'espacement interne */
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .img2 {
@@ -218,4 +224,6 @@ nav ul li a {
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
     padding: 10px; /* Ajout de padding pour l'espacement interne */
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
