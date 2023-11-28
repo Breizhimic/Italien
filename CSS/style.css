@@ -162,7 +162,6 @@ nav ul li a {
     height: 100%;
     background-color: rgba(255, 0, 0, 0.2);
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: flex; /* Utilisation de flexbox pour aligner verticalement */
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
@@ -179,9 +178,8 @@ nav ul li a {
     text-align: center;
     width: 50%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: transparent;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: flex; /* Utilisation de flexbox pour aligner verticalement */
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
@@ -200,7 +198,6 @@ nav ul li a {
     height: 100%;
     background-color: rgba(255, 0, 0, 0.2);
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: flex; /* Utilisation de flexbox pour aligner verticalement */
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
@@ -217,13 +214,85 @@ nav ul li a {
     text-align: center;
     width: 50%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: transparent;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: flex; /* Utilisation de flexbox pour aligner verticalement */
     justify-content: center; /* Centrage horizontal */
     align-items: center; /* Centrage vertical */
     padding: 10px; /* Ajout de padding pour l'espacement interne */
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+.long1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex; /* Utilisation de flexbox pour aligner verticalement */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 1px; /* Ajout de padding pour l'espacement interne */
+}
+
+.long1 img {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.long2 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex; /* Utilisation de flexbox pour aligner verticalement */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 1px; /* Ajout de padding pour l'espacement interne */
+}
+
+.court1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex; /* Utilisation de flexbox pour aligner verticalement */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 1px; /* Ajout de padding pour l'espacement interne */
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.court2 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex; /* Utilisation de flexbox pour aligner verticalement */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    padding: 1px; /* Ajout de padding pour l'espacement interne */
+
+}
+
+.court2 img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
