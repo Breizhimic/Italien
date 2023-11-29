@@ -20,8 +20,26 @@ header {
     border-top: 2px solid gold;
 }
 
+
+ 
+/* Ajout du style pour le texte "Siletti" à côté du logo */
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Assurez-vous que le header a une hauteur fixe pour centrer verticalement */
+}
+
 .logo img {
     height: 60px;
+    margin-right: 10px; /* Espacement entre le logo et le texte */
+}
+
+.logo-text {
+    font-size: 2em;
+    /* Ajoutez d'autres styles si nécessaire, comme la couleur, la police, etc. */
+    display: flex; /* Pour aligner verticalement le texte */
+    align-items: center; /* Pour centrer verticalement le texte */
+    letter-spacing: 5px;
 }
 
 nav ul {
