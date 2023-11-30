@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: transparent;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gold;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    border-top: 2px solid gold;
+}
+
+
+ 
+/* Ajout du style pour le texte "Siletti" à côté du logo */
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%; /* Assurez-vous que le header a une hauteur fixe pour centrer verticalement */
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px; /* Espacement entre le logo et le texte */
+}
+
+.logo-text {
+    font-size: 2em;
+    /* Ajoutez d'autres styles si nécessaire, comme la couleur, la police, etc. */
+    display: flex; /* Pour aligner verticalement le texte */
+    align-items: center; /* Pour centrer verticalement le texte */
+    letter-spacing: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px; /* Espacement horizontal entre chaque élément de navigation */
+}
+
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.cart-profile {
+    display: flex;
+    align-items: center;
+    height: 120%;
+    margin-right: 10px
+}
+
+.cart-profile .cart a i,
+.cart-profile .profile a i {
+    font-size: 1.5em; /* Taille agrandie pour les icônes */
+}
+
+.profile {
+    padding-left: 20px;
+}
+
+/* styles.css */
+
+  
+.full-screen-image {
+    position: relative;
+    width: 100%;
+    height: 150vh; /* Utilisation de 100vh pour remplir la hauteur de l'écran */
+    overflow: hidden;
+}
+  
+.full-screen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
