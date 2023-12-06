@@ -37,6 +37,7 @@
 .txt {
     flex: 1;
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,3 +50,34 @@
     height: 100%;
 }
   
+.custom-list {
+    list-style-type: disc; /* Supprimer les puces par défaut */
+    margin: 0; /* Supprimer la marge par défaut */
+    padding: 0; /* Supprimer le remplissage par défaut */
+    width: 80%; /* Ajuster la largeur */
+}
+  
+.custom-list li {
+    margin-bottom: 20px; /* Espacement entre chaque élément */
+    font-size: 1.5em; /* Ajuster la taille de la police */
+    line-height: 8; /* Espacement entre les lignes */
+    text-align: left; /* Alignement du texte à gauche */
+    text-indent: 1em; /* Réduire l'indentation de la première ligne */
+    padding-left: 1em; /* Ajouter un espace pour compenser l'indentation */
+    word-spacing: 10px; /* Espacement entre les mots */
+    font-weight: bold;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espacement entre le titre et la liste */
+    letter-spacing: 5px;
+  }
